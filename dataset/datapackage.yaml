@@ -35,7 +35,7 @@ resources:
           type: string
     scheme: file
     title: CRIB 2018
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: CRIB - Clinical Risk Index for Babies 2019
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -68,7 +68,7 @@ resources:
           type: geopoint
     scheme: file
     title: CRIB 2019
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: CRIB - Clinical Risk Index for Babies 2020
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -101,7 +101,7 @@ resources:
           type: string
     scheme: file
     title: CRIB 2020
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: CRIB - Clinical Risk Index for Babies 2021
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -131,8 +131,8 @@ resources:
         - name: obitos_esperados
           type: string
     scheme: file
-    title: ICRIB 2021
-  - description: Insira a descrição/explicação detalhada deste recurso.
+    title: CRIB 2021
+  - description: CRIB - Clinical Risk Index for Babies 2022
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -165,7 +165,7 @@ resources:
           type: string
     scheme: file
     title:  CRIB 2022
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: CRIB - Clinical Risk Index for Babies 2023
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -198,7 +198,7 @@ resources:
           type: string
     scheme: file
     title: CRIB 2023
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: CRIB - Clinical Risk Index for Babies 2024
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -279,4 +279,5 @@ resources:
           description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2025
+  - description:  CRIB - Clinical Risk Index for Babies 2025
 title: CRIB - Clinical Risk Index for Babies
