@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.216,
+  "time": 0.222,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato.",
         "dialect": {
           "delimiter": ";"
         },
@@ -64,7 +64,7 @@
           "rows": 144
         }
       },
-      "time": 0.014,
+      "time": 0.016,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -153,7 +153,7 @@
           "rows": 192
         }
       },
-      "time": 0.017,
+      "time": 0.019,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -242,7 +242,7 @@
           "rows": 191
         }
       },
-      "time": 0.015,
+      "time": 0.017,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -331,7 +331,7 @@
           "rows": 192
         }
       },
-      "time": 0.021,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -420,7 +420,7 @@
           "rows": 192
         }
       },
-      "time": 0.024,
+      "time": 0.017,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -509,7 +509,7 @@
           "rows": 192
         }
       },
-      "time": 0.026,
+      "time": 0.027,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -746,7 +746,7 @@
           "rows": 192
         }
       },
-      "time": 0.016,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
