@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.222,
+  "time": 0.18,
   "errors": [],
   "tasks": [
     {
@@ -19,7 +19,9 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
@@ -64,7 +66,7 @@
           "rows": 144
         }
       },
-      "time": 0.016,
+      "time": 0.015,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -108,7 +110,9 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
@@ -153,7 +157,7 @@
           "rows": 192
         }
       },
-      "time": 0.019,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -197,7 +201,9 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
@@ -242,7 +248,7 @@
           "rows": 191
         }
       },
-      "time": 0.017,
+      "time": 0.015,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -331,7 +337,7 @@
           "rows": 192
         }
       },
-      "time": 0.018,
+      "time": 0.016,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -375,7 +381,9 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
@@ -420,7 +428,7 @@
           "rows": 192
         }
       },
-      "time": 0.017,
+      "time": 0.016,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -464,7 +472,9 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
@@ -546,154 +556,6 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "crib_2024",
-        "path": "data/crib_2024.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "unidade",
-              "type": "string"
-            },
-            {
-              "name": "mes",
-              "type": "string"
-            },
-            {
-              "name": "ano",
-              "type": "integer"
-            },
-            {
-              "name": "grau",
-              "type": "string"
-            },
-            {
-              "name": "escore",
-              "type": "string"
-            },
-            {
-              "name": "predicao_obito",
-              "type": "geopoint"
-            },
-            {
-              "name": "saidas_rn",
-              "type": "integer"
-            },
-            {
-              "name": "obitos_ocorridos",
-              "type": "integer"
-            },
-            {
-              "name": "obitos_esperados",
-              "type": "geopoint"
-            }
-          ]
-        },
-        "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
-        "stats": {
-          "hash": "8dab3b17ddce950bf01766ccf01df895",
-          "bytes": 7824,
-          "fields": 9,
-          "rows": 192
-        }
-      },
-      "time": 0.018,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [
-        {
-          "cell": "2,92",
-          "fieldName": "obitos_esperados",
-          "fieldNumber": 9,
-          "fieldPosition": 9,
-          "cells": [
-            "MOV",
-            "Setembro",
-            "2024",
-            "III",
-            "11 a 15 ",
-            "73,1",
-            "4",
-            "2",
-            "2,92"
-          ],
-          "rowNumber": 179,
-          "rowPosition": 180,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"geopoint/default\"",
-          "message": "Type error in the cell \"2,92\" in row \"180\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2,92",
-          "fieldName": "obitos_esperados",
-          "fieldNumber": 9,
-          "fieldPosition": 9,
-          "cells": [
-            "MOV",
-            "Outubro",
-            "2024",
-            "III",
-            "11 a 15 ",
-            "73,1",
-            "4",
-            "3",
-            "2,92"
-          ],
-          "rowNumber": 183,
-          "rowPosition": 184,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"geopoint/default\"",
-          "message": "Type error in the cell \"2,92\" in row \"184\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        }
-      ],
-      "stats": {
-        "errors": 2
-      },
-      "valid": false
-    },
-    {
-      "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
         "name": "crib_2025",
         "path": "data/crib_2025.csv",
         "profile": "tabular-data-resource",
@@ -701,44 +563,62 @@
           "fields": [
             {
               "name": "unidade",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade hospitalar",
+              "title": "Unidade"
             },
             {
               "name": "mes",
-              "type": "string"
+              "type": "string",
+              "title": "Mês",
+              "description": "Mês referente ao dado"
             },
             {
               "name": "ano",
-              "type": "integer"
+              "type": "integer",
+              "title": "Ano",
+              "description": "Ano referente ao dado"
             },
             {
               "name": "grau",
-              "type": "string"
+              "type": "string",
+              "title": "Grau",
+              "description": "Grau de gravidade do paciente"
             },
             {
               "name": "escore",
-              "type": "string"
+              "type": "string",
+              "title": "Escore",
+              "description": "Pontuação de gravidade do paciente"
             },
             {
               "name": "predicao_obito",
-              "type": "geopoint"
+              "type": "geopoint",
+              "title": "Predição de Óbito",
+              "description": "Taxa de predição de mortalidade"
             },
             {
               "name": "saidas_rn",
-              "type": "integer"
+              "type": "integer",
+              "title": "Saídas",
+              "description": "Quantidade de saídas de recém nascido"
             },
             {
               "name": "obitos_ocorridos",
-              "type": "integer"
+              "type": "integer",
+              "title": "Óbitos Ocorridos",
+              "description": "Quantidade de óbitos ocorridos"
             },
             {
               "name": "obitos_esperados",
-              "type": "geopoint"
+              "type": "geopoint",
+              "title": "Óbitos esperados",
+              "description": "Quantidade de óbitos esperados"
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "CRIB - Clinical Risk Index for Babies 2025",
         "stats": {
           "hash": "d3362ba309dd6ca1b54a3ccb90820f32",
           "bytes": 7822,
@@ -806,8 +686,8 @@
     }
   ],
   "stats": {
-    "errors": 3,
-    "tasks": 8
+    "errors": 1,
+    "tasks": 7
   },
   "valid": false
 }
