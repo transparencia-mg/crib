@@ -279,5 +279,4 @@ resources:
           description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2025
-  - description:  CRIB - Clinical Risk Index for Babies 2025
-title: CRIB - Clinical Risk Index for Babies
+ title: CRIB - Clinical Risk Index for Babies
