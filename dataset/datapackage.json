@@ -1,0 +1,440 @@
+{
+  "name": "CRIB",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2018",
+      "path": "data/crib_2018.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2019",
+      "path": "data/crib_2019.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "geopoint"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "geopoint"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2020",
+      "path": "data/crib_2020.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2021",
+      "path": "data/crib_2021.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2022",
+      "path": "data/crib_2022.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2023",
+      "path": "data/crib_2023.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2024",
+      "path": "data/crib_2024.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "geopoint"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "crib_2025",
+      "path": "data/crib_2025.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "mes",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "grau",
+            "type": "string"
+          },
+          {
+            "name": "escore",
+            "type": "string"
+          },
+          {
+            "name": "predicao_obito",
+            "type": "geopoint"
+          },
+          {
+            "name": "saidas_rn",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_ocorridos",
+            "type": "integer"
+          },
+          {
+            "name": "obitos_esperados",
+            "type": "geopoint"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Crib"
+}
