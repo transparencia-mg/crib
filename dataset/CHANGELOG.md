@@ -5,5 +5,5 @@ Baseado na filosofia [Mantenha um Changelog](https://keepachangelog.com/pt-BR/1.
 
 ### [1.0.0] - 2022-04-19
 
-- Versão inicial
+- Versão inicial.
 
