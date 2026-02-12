@@ -19,20 +19,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
-          type: string
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2018
   - description: CRIB - Clinical Risk Index for Babies 2019
@@ -52,20 +68,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
-          type: geopoint
+          type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
           type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2019
   - description: CRIB - Clinical Risk Index for Babies 2020
@@ -85,20 +117,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
-          type: string
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2020
   - description: CRIB - Clinical Risk Index for Babies 2021
@@ -114,22 +162,40 @@ resources:
       fields:
         - name: unidade
           type: string
+          description: Sigla da unidade hospitalar
+          title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
-          type: string
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2021
   - description: CRIB - Clinical Risk Index for Babies 2022
@@ -149,20 +215,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
-          type: string
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title:  CRIB 2022
   - description: CRIB - Clinical Risk Index for Babies 2023
@@ -182,20 +264,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
-          type: string
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2023
   - description: CRIB - Clinical Risk Index for Babies 2024
@@ -215,20 +313,36 @@ resources:
           title: Unidade
         - name: mes
           type: string
+          title: Mês
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          title: Ano
+          description: Ano referente ao dado
         - name: grau
           type: string
+          title: Grau
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade
         - name: saidas_rn
           type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
         - name: obitos_ocorridos
           type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
           type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
     scheme: file
     title: CRIB 2024
     dialect:
